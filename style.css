@@ -10,3 +10,11 @@ h1{
 #desc{
   font-family: 'Roboto', sans-serif;
 }
+
+.destaque{
+  font-style: italic;
+}
+
+.trybe{
+  color: green;
+}
