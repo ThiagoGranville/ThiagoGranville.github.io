@@ -1,21 +1,21 @@
-body{
+body {
  background: linear-gradient(62deg, rgb(226, 78, 27) 0%, rgb(247, 127, 0) 100%);
  min-height: 100vh;
 }
 
-h1{
+h1 {
   font-family: 'Nunito', sans-serif;
 }
 
-#desc{
+#desc {
   font-family: 'Roboto', sans-serif;
 }
 
-.destaque{
+.destaque {
   font-style: italic;
 }
 
-.trybe{
+.trybe {
   color: green;
 }
 
@@ -31,6 +31,11 @@ h1{
   font-size: 15px;
 }
 
-#foto, #descricao{
+#foto, #descricao {
   display: inline-block;
+}
+
+#nome {
+ width: 250px;
+ margin: auto;
 }
