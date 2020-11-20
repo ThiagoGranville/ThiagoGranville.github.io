@@ -63,3 +63,7 @@ h1 {
   margin-top: 50px;
   margin-bottom: 40px;
 }
+
+.elementoLi1, .elementoLi3{
+  font-style: italic;
+}
