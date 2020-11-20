@@ -36,6 +36,7 @@ h1 {
   display: inline-block;
 }
 
+
 #descricao {
   margin-left: 35px;
 }
@@ -44,14 +45,16 @@ h1 {
   font-family: 'Roboto', sans-serif;
 }
 
+#foto {
+  padding: 5px;
+  background-color: black;
+  margin-left: 10px;
+}
+
 #nome {
  width: 250px;
  margin: auto;
  margin-top: 40px;
-}
-
-#foto{
-  margin-left: 10px;
 }
 
 #lista, #contato, #indice{
@@ -60,5 +63,3 @@ h1 {
   margin-top: 50px;
   margin-bottom: 40px;
 }
-
-
