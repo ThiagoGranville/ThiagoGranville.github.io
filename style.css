@@ -1,3 +1,8 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
  background: linear-gradient(62deg, rgb(226, 78, 27) 0%, rgb(247, 127, 0) 100%);
  min-height: 100vh;
@@ -5,10 +10,6 @@ body {
 
 h1 {
   font-family: 'Nunito', sans-serif;
-}
-
-#desc {
-  font-family: 'Roboto', sans-serif;
 }
 
 .destaque {
@@ -35,12 +36,30 @@ h1 {
   display: inline-block;
 }
 
+
+#descricao {
+  margin-left: 35px;
+}
+
+#descricao p{
+  font-family: 'Roboto', sans-serif;
+}
+
 #foto {
   padding: 5px;
   background-color: black;
+  margin-left: 10px;
 }
 
 #nome {
  width: 250px;
  margin: auto;
+ margin-top: 40px;
+}
+
+#lista, #contato, #indice{
+  width: 50%;
+  margin-left: 340px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
