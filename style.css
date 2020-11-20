@@ -35,6 +35,11 @@ h1 {
   display: inline-block;
 }
 
+#foto {
+  padding: 5px;
+  background-color: black;
+}
+
 #nome {
  width: 250px;
  margin: auto;
