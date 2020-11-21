@@ -1,69 +1,44 @@
-*{
-  margin: 0px;
-  padding: 0px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
 }
 
 body {
- background: linear-gradient(62deg, rgb(226, 78, 27) 0%, rgb(247, 127, 0) 100%);
- min-height: 100vh;
+  /* background: linear-gradient(62deg, rgb(226, 78, 27) 0%, rgb(247, 127, 0) 100%); */
+  background: linear-gradient(62deg, rgb(0, 0, 0) 0%, rgb(15, 15, 20) 100%);;
+  min-height: 100vh;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20rem;
+}
+
+#foto-principal {
+  border-radius: 50%;
+  border: 5px solid rgb(247, 127, 0);
+  width: 300px;
+  margin-bottom: 5rem;
 }
 
 h1 {
   font-family: 'Nunito', sans-serif;
+  font-size: 5rem;
+  color: rgb(247, 127, 0);
 }
 
-.destaque {
-  font-style: italic;
-}
-
-.trybe {
-  color: green;
-}
-
-.elementoLi1 {
-  font-size: 25px;
-}
-
-.elementoLi2 {
-  font-size: 20px;
-}
-
-.elementoLi3 {
-  font-size: 15px;
-}
-
-#foto, #descricao {
-  display: inline-block;
-}
-
-
-#descricao {
-  margin-left: 35px;
-}
-
-#descricao p{
+h2{
   font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: rgb(247, 127, 0)
 }
 
-#foto {
-  padding: 5px;
-  background-color: black;
-  margin-left: 10px;
-}
 
-#nome {
- width: 250px;
- margin: auto;
- margin-top: 40px;
-}
-
-#lista, #contato, #indice{
-  width: 50%;
-  margin-left: 340px;
-  margin-top: 50px;
-  margin-bottom: 40px;
-}
-
-.elementoLi1, .elementoLi3{
-  font-style: italic;
-}
