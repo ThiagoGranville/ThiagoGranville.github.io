@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 :root {
@@ -9,7 +8,6 @@
 }
 
 body {
-  /* background: linear-gradient(62deg, rgb(226, 78, 27) 0%, rgb(247, 127, 0) 100%); */
   background: linear-gradient(62deg, rgb(0, 0, 0) 0%, rgb(15, 15, 20) 100%);
   min-height: 100vh;
 }
@@ -44,13 +42,18 @@ h2 {
   font-weight: 400;
 }
 
-.links{
+.links {
   display: inline-block;
   margin-top: 100px;
 }
 
 .fab {
- font-size: 60px;
- color: orange;
- margin: 0 30px 0 30px;
+  font-size: 60px;
+  color: orange;
+  margin: 0 30px 0 30px;
+  transition: color 300ms;
+}
+
+.fab:hover {
+  color: aqua;
 }
