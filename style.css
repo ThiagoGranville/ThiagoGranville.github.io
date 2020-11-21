@@ -11,7 +11,7 @@ body {
   background: linear-gradient(62deg, rgb(0, 0, 0) 0%, rgb(15, 15, 20) 100%);
 }
 
-.home {
+#home {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@ h2 {
   margin-top: 100px;
 }
 
-.fab {
+.fab, .fas{
   color: orange;
   font-size: 60px;
   margin: 0 30px 0 30px;
@@ -58,7 +58,7 @@ h2 {
   color: aqua;
 }
 
-.about {
+#about {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -67,8 +67,9 @@ h2 {
   padding-bottom: 5rem;
 }
 
-.about h2 {
-  margin-bottom: 250px;
+#about h2 {
+  margin-top: 150px;
+  margin-bottom: 150px;
   color: darkorange;
   font-weight: 700;
   font-size: 5rem;
@@ -89,3 +90,52 @@ p {
 .trybe {
   color: lightgreen;
 }
+
+#skills {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+#menu{
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  width: 25%;
+  position: fixed;
+  margin-top: 250px;
+  margin-left: 30px;
+}
+
+.fas{
+  margin-bottom: 70px;
+}
+
+.menu-link{
+  display: inline-block;
+  padding: 0;
+  text-decoration: none;
+  align-items: center;
+}
+
+.fas:hover{
+  color: aqua;
+}
+
+.texto-menu{
+  font-family: 'Roboto', sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  color: transparent; 
+  transition: color 400ms;
+}
+
+ .fas:hover ~ .texto-menu{
+  color: orange;
+}
+
