@@ -23,8 +23,8 @@ body {
 #foto-principal {
   border: 5px solid rgb(247, 127, 0);
   border-radius: 50%;
-  margin-bottom: 30px;
-  width: 300px;
+  margin-bottom: 3rem;
+  width: 30rem;
 }
 
 h1 {
@@ -32,7 +32,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 5rem;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 h2 {
@@ -44,13 +44,13 @@ h2 {
 
 .links {
   display: inline-block;
-  margin-top: 100px;
+  margin-top: 10rem;
 }
 
 .fab, .fas{
   color: orange;
-  font-size: 60px;
-  margin: 0 30px 0 30px;
+  font-size: 6rem;
+  margin: 0 3rem 0 3rem;
   transition: color 300ms;
 }
 
@@ -68,8 +68,8 @@ h2 {
 }
 
 #about h2 {
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
   color: darkorange;
   font-weight: 700;
   font-size: 5rem;
@@ -79,7 +79,7 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 4rem;
   color: lightcyan;
-  margin-bottom: 250px;
+  margin-bottom: 25rem;
 }
 
 .destaque {
@@ -108,12 +108,12 @@ p {
   padding: 0;
   width: 25%;
   position: fixed;
-  margin-top: 250px;
-  margin-left: 30px;
+  margin-top: 25rem;
+  margin-left: 3rem;
 }
 
 .fas{
-  margin-bottom: 70px;
+  margin-bottom: 7rem;
 }
 
 .menu-link{
