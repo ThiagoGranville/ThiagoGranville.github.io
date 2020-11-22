@@ -8,7 +8,7 @@
 }
 
 body {
-  background: linear-gradient(62deg, rgb(0, 0, 0) 0%, rgb(15, 15, 20) 100%);
+  background: linear-gradient(90deg, rgb(5, 0, 0) 0%, rgb(15, 15, 20) 100%);
 }
 
 #home {
@@ -47,7 +47,8 @@ h2 {
   margin-top: 10rem;
 }
 
-.fab, .fas{
+.fab,
+.fas {
   color: orange;
   font-size: 6rem;
   margin: 0 3rem 0 3rem;
@@ -67,18 +68,18 @@ h2 {
   padding-bottom: 5rem;
 }
 
-#about h2 {
-  margin-top: 15rem;
-  margin-bottom: 15rem;
+#about h2, #skills h2 {
   color: darkorange;
   font-weight: 700;
   font-size: 5rem;
+  margin-bottom: 15rem;
+  margin-top: 15rem;
 }
 
 p {
+  color: lightcyan;
   font-family: 'Roboto', sans-serif;
   font-size: 2.5rem;
-  color: lightcyan;
   margin-bottom: 25rem;
 }
 
@@ -91,16 +92,7 @@ p {
   color: lightgreen;
 }
 
-#skills {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: center;
-  padding-bottom: 5rem;
-}
-
-#menu{
+#menu {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -112,30 +104,56 @@ p {
   margin-left: 3rem;
 }
 
-.fas{
+.fas {
   margin-bottom: 7rem;
 }
 
-.menu-link{
+.menu-link {
   display: inline-block;
   padding: 0;
   text-decoration: none;
   align-items: center;
 }
 
-.fas:hover{
+.fas:hover {
   color: aqua;
 }
 
-.texto-menu{
+.texto-menu {
   font-family: 'Roboto', sans-serif;
   font-size: 4rem;
   font-weight: 500;
-  color: transparent; 
+  color: transparent;
   transition: color 400ms;
 }
 
- .fas:hover ~ .texto-menu{
+.fas:hover ~ .texto-menu {
   color: orange;
 }
 
+#skills {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  padding-top: 20rem;
+}
+
+.lista-habilidades {
+  color: lightcyan;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4rem;
+  list-style-type: none;
+  margin-bottom: 25rem;
+}
+
+li .fab, li .fas{
+  color: cyan;
+  font-size: 4rem;
+}
+
+li{
+  max-height: 4.7rem;
+  margin-bottom: 2rem;
+}
