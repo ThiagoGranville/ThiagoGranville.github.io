@@ -20,7 +20,7 @@ section {
   padding-bottom: 5rem;
 }
 
-#skills{
+#skills {
   padding-top: 15rem;
 }
 
@@ -59,15 +59,17 @@ h2 {
   transition: color 300ms;
 }
 
-.fab:hover {
+.fab:hover,
+.fas:hover {
   color: aqua;
 }
 
-#about h2, #skills h2 {
+#about h2,
+#skills h2 {
   color: darkorange;
   font-weight: 700;
   font-size: 5rem;
-  margin-bottom: 15rem;
+  margin-bottom: 5rem;
   margin-top: 15rem;
 }
 
@@ -88,15 +90,13 @@ p {
 }
 
 #menu {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0;
-  width: 25%;
   position: fixed;
   margin-top: 25rem;
-  margin-left: 3rem;
+  margin-left: 5rem;
+}
+
+#menu li {
+  margin-bottom: 5rem;
 }
 
 .fas {
@@ -108,10 +108,6 @@ p {
   padding: 0;
   text-decoration: none;
   align-items: center;
-}
-
-.fas:hover {
-  color: aqua;
 }
 
 .texto-menu {
@@ -134,12 +130,13 @@ p {
   margin-bottom: 40rem;
 }
 
-li .fab, li .fas{
+.lista-habilidades .fab,
+.lista-habilidades .fas {
   color: cyan;
   font-size: 4rem;
 }
 
-li{
+li {
   max-height: 4.7rem;
   margin-bottom: 2rem;
 }
