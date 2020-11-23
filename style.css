@@ -20,6 +20,10 @@ section {
   padding-bottom: 5rem;
 }
 
+#skills{
+  padding-top: 15rem;
+}
+
 #foto-principal {
   border: 5px solid rgb(247, 127, 0);
   border-radius: 50%;
